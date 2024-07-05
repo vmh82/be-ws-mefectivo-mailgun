@@ -1,1 +1,0 @@
-# be-ws-mefectivo-mailgun

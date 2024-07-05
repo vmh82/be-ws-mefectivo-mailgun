@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGeneracionDocumentos.API", "ApiGeneracionDocumentos.API\ApiGeneracionDocumentos.API.csproj", "{FEC02317-2625-440B-9DD5-F7C67B5C1CF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGeneracionDocumentos.Repository", "ApiGeneracionDocumentos.Repository\ApiGeneracionDocumentos.Repository.csproj", "{30F57E3C-53ED-40A8-BAE1-76C4F2F1BE96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGeneracionDocumentos.Entity", "ApiGeneracionDocumentos.Entity\ApiGeneracionDocumentos.Entity.csproj", "{7F3058B5-0EA0-4376-879E-13DCB40DC097}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGeneracionDocumentos.Infraestructure", "ApiGeneracionDocumentos.Infraestructure\ApiGeneracionDocumentos.Infraestructure.csproj", "{5B1E4A92-A6BF-4C55-9049-1589F3C6C1BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGeneracionDocumentos.Domain", "ApiGeneracionDocumentos.Domain\ApiGeneracionDocumentos.Domain.csproj", "{7CAA5126-B241-4B39-94D0-FD5160D5CC4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGeneracionDocumentos.Test", "ApiGeneracionDocumentos.Test\ApiGeneracionDocumentos.Test.csproj", "{99E5D8C0-AB8B-4D83-BF13-A36A022F7778}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEC02317-2625-440B-9DD5-F7C67B5C1CF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC02317-2625-440B-9DD5-F7C67B5C1CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC02317-2625-440B-9DD5-F7C67B5C1CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC02317-2625-440B-9DD5-F7C67B5C1CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F57E3C-53ED-40A8-BAE1-76C4F2F1BE96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F57E3C-53ED-40A8-BAE1-76C4F2F1BE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F57E3C-53ED-40A8-BAE1-76C4F2F1BE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F57E3C-53ED-40A8-BAE1-76C4F2F1BE96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F3058B5-0EA0-4376-879E-13DCB40DC097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F3058B5-0EA0-4376-879E-13DCB40DC097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F3058B5-0EA0-4376-879E-13DCB40DC097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F3058B5-0EA0-4376-879E-13DCB40DC097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B1E4A92-A6BF-4C55-9049-1589F3C6C1BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1E4A92-A6BF-4C55-9049-1589F3C6C1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1E4A92-A6BF-4C55-9049-1589F3C6C1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1E4A92-A6BF-4C55-9049-1589F3C6C1BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CAA5126-B241-4B39-94D0-FD5160D5CC4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CAA5126-B241-4B39-94D0-FD5160D5CC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CAA5126-B241-4B39-94D0-FD5160D5CC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CAA5126-B241-4B39-94D0-FD5160D5CC4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E5D8C0-AB8B-4D83-BF13-A36A022F7778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E5D8C0-AB8B-4D83-BF13-A36A022F7778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E5D8C0-AB8B-4D83-BF13-A36A022F7778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E5D8C0-AB8B-4D83-BF13-A36A022F7778}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7494EAEB-F6EA-4302-8C36-2FEA527D9E47}
+	EndGlobalSection
+EndGlobal
