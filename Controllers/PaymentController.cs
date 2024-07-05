@@ -107,7 +107,8 @@ namespace paypal_sharp.Controllers
             object finalResponse = null;
             string token = HttpUtility.HtmlEncode(HttpContext.Request.Query["token"]);
             string payerId = HttpUtility.HtmlEncode(HttpContext.Request.Query["PayerID"]);
-
+            string clientID = "decamus";
+            string secretKey = "mefectivo2023**";
 
             string credentials = Convert.ToBase64String(System.Text.Encoding.ASCII.GetBytes($"{clientID}:{secretKey}"));
             var authorizathion = new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", credentials);
